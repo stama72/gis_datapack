@@ -1,0 +1,3 @@
+kill @e[tag=gis_aec_nether_athletic_hard]
+execute in minecraft:gis_nether positioned -59.5 21.00 224.5 run summon minecraft:area_effect_cloud ~ ~ ~ {Particle:"effect",Radius:1f,RadiusPerTick:0f,RadiusOnUse:0f,Duration:2147483647,DurationOnUse:0f,Age:0,WaitTime:0,Color:655104,Tags:["gis_aec_nether_athletic_hard"],Effects:[{Id:8,Amplifier:5b,Duration:220}]}
+execute in minecraft:gis_nether positioned -59.5 29.00 238.5 run summon minecraft:area_effect_cloud ~ ~ ~ {Particle:"effect",Radius:1f,RadiusPerTick:0f,RadiusOnUse:0f,Duration:2147483647,DurationOnUse:0f,Age:0,WaitTime:0,Color:917495,Tags:["gis_aec_nether_athletic_hard"],Effects:[{Id:1,Amplifier:10b,Duration:160}]}

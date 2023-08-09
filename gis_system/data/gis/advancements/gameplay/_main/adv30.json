@@ -1,0 +1,29 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:obsidian"
+      },
+      "title": {
+        "text": "冒険の終わり",
+        "color": "white"
+      },
+      "description": {
+        "text": "ジ・エンドへ行く",
+        "color": "white"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "gis:gameplay/_main/adv29",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:changed_dimension",
+        "conditions": {
+          "to": "minecraft:the_end"
+        }
+      }
+    }
+  }
+  

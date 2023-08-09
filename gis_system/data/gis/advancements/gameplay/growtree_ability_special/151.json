@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:grass_block",
+      "nbt": "{Enchantments:[{id:\"minecraft:soul_speed\",lvl:1s}]}"
+    },
+    "title": "母なる大地                ",
+    "description": [
+      "※耐久の道lv7で解放可能\n",
+      "恵みを齎すは慈愛の大地\n",
+      "耐性+1\n",
+      "再生+1\n",
+      "ＴＰ:64"
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "gis:gameplay/growtree_ability_special/a15",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

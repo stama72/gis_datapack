@@ -1,0 +1,1 @@
+execute at @s as @a[distance=..2] run effect give @s minecraft:wither 5 2

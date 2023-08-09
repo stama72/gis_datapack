@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:structure_void",
+      "nbt": "{CustomModelData:2}"
+    },
+    "title": "筋力増強Ⅴ                ",
+    "description": [
+      "極めし力、鬼神の如く\n",
+      "攻撃力+5\n",
+      "ＴＰ:60"
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "gis:gameplay/growtree_ability_attack/111211",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

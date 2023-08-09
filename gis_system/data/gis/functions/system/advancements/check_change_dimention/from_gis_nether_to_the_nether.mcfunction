@@ -1,0 +1,2 @@
+function gis:system/sub_function/warp_overworld_nether_portal
+advancement revoke @s only gis:system/check_change_dimention/from_gis_nether_to_the_nether

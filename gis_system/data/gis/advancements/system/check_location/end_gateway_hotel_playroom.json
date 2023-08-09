@@ -1,0 +1,43 @@
+{
+  "parent": "gis:system/check_location/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "x": {
+                    "min": 215,
+                    "max": 216
+                  },
+                  "y": {
+                    "min": 17,
+                    "max": 19
+                  },
+                  "z": {
+                    "min": 113,
+                    "max": 115
+                  }
+                },
+                "dimension": "minecraft:overworld",
+                "block": {
+                  "blocks": [
+                    "minecraft:end_gateway"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "gis:system/advancements/check_location/end_gateway_hotel_playroom"
+  }
+}

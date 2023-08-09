@@ -1,0 +1,32 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:red_bed"
+      },
+      "title": {
+        "text": "これからよろしくね",
+        "color": "white"
+      },
+      "description": {
+        "text": "フロントAと話す",
+        "color": "green"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "gis:gameplay/_main/adv3",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:villager",
+            "nbt": "{Tags:[\"gis_mob\",\"gis_vil\",\"vil_0\"]}"
+          }
+        }
+      }
+    }
+  }
+  

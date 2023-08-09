@@ -1,0 +1,27 @@
+[
+  {
+    "function": "minecraft:copy_nbt",
+    "source": "this",
+    "ops": [
+      {
+        "source": "SelectedItemSlot",
+        "target": "system.instant.slot",
+        "op": "replace"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "minecraft:gis"
+    },
+    "ops": [
+      {
+        "source": "system.data.text.other.skill",
+        "target": "system.instant.type",
+        "op": "replace"
+      }
+    ]
+  }
+]

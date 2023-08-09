@@ -1,0 +1,28 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:light_blue_stained_glass"
+      },
+      "title": {
+        "text": "Go Insane Skyblock",
+        "color": "white",
+        "bold": false
+      },
+      "description": {
+        "text": "Go Insane Skyblockを始める",
+        "color": "green",
+        "bold": false
+      },
+      "background": "minecraft:textures/block/light_blue_stained_glass.png",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick"
+      }
+    }
+  }
+  

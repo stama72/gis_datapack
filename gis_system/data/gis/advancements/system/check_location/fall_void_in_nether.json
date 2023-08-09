@@ -1,0 +1,26 @@
+{
+  "parent": "gis:system/check_location/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "position": {
+                "y": {
+                  "max": 0
+                }
+              },
+              "dimension": "minecraft:gis_nether"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "gis:system/advancements/check_location/fall_void_in_nether"
+  }
+}

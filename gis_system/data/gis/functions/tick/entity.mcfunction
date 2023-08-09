@@ -1,0 +1,2 @@
+execute at @s[tag=!gis_spawner] run function gis:system/entity_system/tick_no_spawner_entity
+execute at @s[tag=gis_spawner] if block ~ ~ ~ minecraft:air run function gis:system/entity_system/tick_spawner_entity

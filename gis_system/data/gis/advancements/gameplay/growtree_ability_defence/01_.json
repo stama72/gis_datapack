@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:structure_void",
+      "nbt": "{CustomModelData:5}"
+    },
+    "title": "体力増強Ⅰ                ",
+    "description": [
+      "まずはここから\n",
+      "ＨＰ+4\n",
+      "ＴＰ:4"
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "gis:gameplay/growtree_ability_defence/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

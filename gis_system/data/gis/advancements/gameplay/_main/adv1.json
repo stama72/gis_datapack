@@ -1,0 +1,70 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:sea_lantern"
+    },
+    "title": {
+      "text": "冒険のはじまり",
+      "color": "white"
+    },
+    "description": {
+      "text": "チュートリアルを終える",
+      "color": "green"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "gis:gameplay/_main/root",
+  "criteria": {
+    "requirement1": {
+      "trigger": "minecraft:impossible"
+    },
+    "requirement2": {
+      "trigger": "minecraft:impossible"
+    },
+    "requirement3": {
+      "trigger": "minecraft:impossible"
+    },
+    "requirement4": {
+      "trigger": "minecraft:impossible"
+    },
+    "requirement5": {
+      "trigger": "minecraft:impossible"
+    },
+    "requirement6": {
+      "trigger": "minecraft:impossible"
+    },
+    "requirement7": {
+      "trigger": "minecraft:impossible"
+    },
+    "requirement8": {
+      "trigger": "minecraft:impossible"
+    },
+    "requirement9": {
+      "trigger": "minecraft:impossible"
+    },
+    "requirement10": {
+      "trigger": "minecraft:impossible"
+    },
+    "requirement11": {
+      "trigger": "minecraft:impossible"
+    },
+    "requirement12": {
+      "trigger": "minecraft:impossible"
+    },
+    "requirement13": {
+      "trigger": "minecraft:impossible"
+    },
+    "requirement14": {
+      "trigger": "minecraft:impossible"
+    },
+    "requirement15": {
+      "trigger": "minecraft:impossible"
+    },
+    "requirement16": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

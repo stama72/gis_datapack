@@ -1,0 +1,70 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": [
+      {
+        "text": "HP:",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "text": "0/"
+      },
+      {
+        "score": {
+          "name": "@s",
+          "objective": "gis_status_hp_max"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "gis_status_hp": {
+            "max": 0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": [
+      {
+        "text": "HP:",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "score": {
+          "name": "@s",
+          "objective": "gis_status_hp"
+        }
+      },
+      {
+        "text": "/"
+      },
+      {
+        "score": {
+          "name": "@s",
+          "objective": "gis_status_hp_max"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "gis_status_hp": {
+            "min": 1
+          }
+        }
+      }
+    ]
+  }
+]

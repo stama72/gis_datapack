@@ -1,0 +1,10 @@
+execute as @s[nbt={PortalCooldown:119}] at @s run tp @s ~ ~33 ~
+execute as @s[nbt={PortalCooldown:1}] at @s run playsound minecraft:entity.lightning_bolt.impact hostile @a ~ ~ ~ 1 1
+execute as @s[nbt={PortalCooldown:1}] at @s run function gis:mob/mobskill/boss_e/sub/particle_2
+execute as @s[nbt={PortalCooldown:2}] at @s run function gis:mob/mobskill/boss_e/sub/particle_2
+execute as @s[nbt={PortalCooldown:3}] at @s run function gis:mob/mobskill/boss_e/sub/particle_2
+execute as @s[nbt={PortalCooldown:4}] at @s run function gis:mob/mobskill/boss_e/sub/particle_2
+execute as @s[nbt={PortalCooldown:5}] at @s run function gis:mob/mobskill/boss_e/sub/particle_2
+execute as @s[nbt={PortalCooldown:6}] at @s run function gis:mob/mobskill/boss_e/sub/particle_2
+execute as @s[nbt={PortalCooldown:7}] at @s run function gis:mob/mobskill/boss_e/sub/particle_2
+execute as @s at @s positioned ~ ~ ~ at @a[distance=..1] run summon minecraft:magma_cube ~ ~ ~ {Silent:1b,PortalCooldown:3,Size:0,wasOnGround:1b,Tags:["gis_mob","gis_effect","gis_inv","gis_kill"],CustomName:'{"text":"íÈçëå^ñÇì±ägéUû÷íe"}',Attributes:[{Name:generic.attack_damage,Base:50}]}

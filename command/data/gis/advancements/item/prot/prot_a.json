@@ -1,0 +1,19 @@
+{
+  "parent": "gis:other/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:wolf_spawn_egg"
+          ],
+          "nbt": "{ID:157}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "gis:item/prot_a"
+  }
+}

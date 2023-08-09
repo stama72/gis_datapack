@@ -1,0 +1,14 @@
+{
+  "parent": "gis:system/check_change_dimention/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:overworld"
+      }
+    }
+  },
+  "rewards": {
+    "function": "gis:system/advancements/check_change_dimention/to_overworld"
+  }
+}

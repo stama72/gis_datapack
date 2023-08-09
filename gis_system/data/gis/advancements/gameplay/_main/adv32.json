@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:crying_obsidian"
+      },
+      "title": {
+        "text": "勇者",
+        "color": "white"
+      },
+      "description": {
+        "text": "帝国の怨霊を倒す",
+        "color": "green"
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "gis:gameplay/_main/adv31",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

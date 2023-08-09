@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:bamboo"
+    },
+    "title": {
+      "text": "旅館「伊須加」",
+      "color": "white"
+    },
+    "description": {
+      "text": "旅館島へ行く",
+      "color": "green"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "gis:gameplay/_main/adv28",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "position": {
+            "y": {
+              "min": 125,
+              "max": 200
+            }
+          },
+          "biome": "minecraft:snowy_taiga_hills"
+        }
+      }
+    }
+  }
+}

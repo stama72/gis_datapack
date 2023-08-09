@@ -1,0 +1,11 @@
+{
+  "parent": "gis:other/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "function": "gis:advancement/other/tp_firsttime"
+  }
+}

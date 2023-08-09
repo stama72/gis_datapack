@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:player_head",
+      "nbt": "{SkullOwner:\"Asterisk32\"}"
+    },
+    "title": {
+      "text": "特別室の住人4",
+      "color": "white"
+    },
+    "description": {
+      "text": "Astarisk32さんに話しかける",
+      "color": "green"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "gis:gameplay/_main/adv40",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:villager",
+          "nbt": "{Tags:[\"gis_mob\",\"gis_vil\",\"vil_27\"]}"
+        }
+      }
+    }
+  }
+}

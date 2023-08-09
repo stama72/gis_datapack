@@ -1,0 +1,2 @@
+execute at @s run summon minecraft:armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,Tags:["gis_mob","gis_spawner_m","gis_kill","endm_summoner"]}
+execute at @s run data modify entity @s PortalCooldown set value 160

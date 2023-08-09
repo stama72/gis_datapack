@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:oak_sapling"
+    },
+    "title": "始まりの力                ",
+    "description": [
+      "力の発芽\n",
+      "ＨＰ+4\n",
+      "ＴＰ:1"
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "gis:gameplay/growtree_ability_special/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "gis:growtree/attlibute"
+  }
+}

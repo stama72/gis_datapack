@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:structure_void",
+      "nbt": "{Enchantments:[{id:\"minecraft:soul_speed\",lvl:1s}],CustomModelData:10}"
+    },
+    "title": "宙の兎                  ",
+    "description": [
+      "※攻勢の道lv3以上で解放可能\n",
+      "宙を跳ね駆け回る\n",
+      "移動速度上昇+1\n",
+      "跳躍力上昇+1\n",
+      "ＴＰ:32"
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "gis:gameplay/growtree_ability_special/01",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

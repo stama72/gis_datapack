@@ -1,0 +1,176 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:emerald_block"
+      },
+      "title": {
+        "text": "買い物上手",
+        "color": "white"
+      },
+      "description": {
+        "text": "全てのホテル内の村人と交易する",
+        "color": "green"
+      },
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "gis:gameplay/_main/adv5",
+    "criteria": {
+      "requirement1": {
+        "trigger": "minecraft:villager_trade",
+        "conditions": {
+          "villager": {
+            "type": "minecraft:villager",
+            "nbt": "{Tags:[\"gis_mob\",\"gis_vil\",\"vil_1\"]}"
+          }
+        }
+      },
+      "requirement2": {
+        "trigger": "minecraft:villager_trade",
+        "conditions": {
+          "villager": {
+            "type": "minecraft:villager",
+            "nbt": "{Tags:[\"gis_mob\",\"gis_vil\",\"vil_2\"]}"
+          }
+        }
+      },
+      "requirement3": {
+        "trigger": "minecraft:villager_trade",
+        "conditions": {
+          "villager": {
+            "type": "minecraft:villager",
+            "nbt": "{Tags:[\"gis_mob\",\"gis_vil\",\"vil_3\"]}"
+          }
+        }
+      },
+      "requirement4": {
+        "trigger": "minecraft:villager_trade",
+        "conditions": {
+          "villager": {
+            "type": "minecraft:villager",
+            "nbt": "{Tags:[\"gis_mob\",\"gis_vil\",\"vil_4\"]}"
+          }
+        }
+      },
+      "requirement5": {
+        "trigger": "minecraft:villager_trade",
+        "conditions": {
+          "villager": {
+            "type": "minecraft:villager",
+            "nbt": "{Tags:[\"gis_mob\",\"gis_vil\",\"vil_5\"]}"
+          }
+        }
+      },
+      "requirement6": {
+        "trigger": "minecraft:villager_trade",
+        "conditions": {
+          "villager": {
+            "type": "minecraft:villager",
+            "nbt": "{Tags:[\"gis_mob\",\"gis_vil\",\"vil_6\"]}"
+          }
+        }
+      },
+      "requirement7": {
+        "trigger": "minecraft:villager_trade",
+        "conditions": {
+          "villager": {
+            "type": "minecraft:villager",
+            "nbt": "{Tags:[\"gis_mob\",\"gis_vil\",\"vil_7\"]}"
+          }
+        }
+      },
+      "requirement8": {
+        "trigger": "minecraft:villager_trade",
+        "conditions": {
+          "villager": {
+            "type": "minecraft:villager",
+            "nbt": "{Tags:[\"gis_mob\",\"gis_vil\",\"vil_8\"]}"
+          }
+        }
+      },
+      "requirement9": {
+        "trigger": "minecraft:villager_trade",
+        "conditions": {
+          "villager": {
+            "type": "minecraft:villager",
+            "nbt": "{Tags:[\"gis_mob\",\"gis_vil\",\"vil_9\"]}"
+          }
+        }
+      },
+      "requirement10": {
+        "trigger": "minecraft:villager_trade",
+        "conditions": {
+          "villager": {
+            "type": "minecraft:villager",
+            "nbt": "{Tags:[\"gis_mob\",\"gis_vil\",\"vil_10\"]}"
+          }
+        }
+      },
+      "requirement11": {
+        "trigger": "minecraft:villager_trade",
+        "conditions": {
+          "villager": {
+            "type": "minecraft:villager",
+            "nbt": "{Tags:[\"gis_mob\",\"gis_vil\",\"vil_11\"]}"
+          }
+        }
+      },
+      "requirement12": {
+        "trigger": "minecraft:villager_trade",
+        "conditions": {
+          "villager": {
+            "type": "minecraft:villager",
+            "nbt": "{Tags:[\"gis_mob\",\"gis_vil\",\"vil_12\"]}"
+          }
+        }
+      },
+      "requirement13": {
+        "trigger": "minecraft:villager_trade",
+        "conditions": {
+          "villager": {
+            "type": "minecraft:villager",
+            "nbt": "{Tags:[\"gis_mob\",\"gis_vil\",\"vil_13\"]}"
+          }
+        }
+      },
+      "requirement14": {
+        "trigger": "minecraft:villager_trade",
+        "conditions": {
+          "villager": {
+            "type": "minecraft:villager",
+            "nbt": "{Tags:[\"gis_mob\",\"gis_vil\",\"vil_14\"]}"
+          }
+        }
+      },
+      "requirement15": {
+        "trigger": "minecraft:villager_trade",
+        "conditions": {
+          "villager": {
+            "type": "minecraft:villager",
+            "nbt": "{Tags:[\"gis_mob\",\"gis_vil\",\"vil_15\"]}"
+          }
+        }
+      },
+      "requirement16": {
+        "trigger": "minecraft:villager_trade",
+        "conditions": {
+          "villager": {
+            "type": "minecraft:villager",
+            "nbt": "{Tags:[\"gis_mob\",\"gis_vil\",\"vil_16\"]}"
+          }
+        }
+      },
+      "requirement17": {
+        "trigger": "minecraft:villager_trade",
+        "conditions": {
+          "villager": {
+            "type": "minecraft:villager",
+            "nbt": "{Tags:[\"gis_mob\",\"gis_vil\",\"vil_17\"]}"
+          }
+        }
+      }
+    }
+  }
+  

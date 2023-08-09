@@ -1,0 +1,43 @@
+{
+  "parent": "gis:system/check_location/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "x": {
+                    "min": 6,
+                    "max": 7
+                  },
+                  "y": {
+                    "min": 11,
+                    "max": 14
+                  },
+                  "z": {
+                    "min": -1,
+                    "max": 2
+                  }
+                },
+                "dimension": "minecraft:growtree",
+                "block": {
+                  "blocks": [
+                    "minecraft:end_gateway"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "gis:system/advancements/check_location/end_gateway_growtree"
+  }
+}

@@ -1,0 +1,1 @@
+execute as @a[advancements={gis:system/check_item_use/eat_85_wonder_pufferfish=true}] run function gis:system/advancements/check_item_use/eat_85_wonder_pufferfish_sub_effect

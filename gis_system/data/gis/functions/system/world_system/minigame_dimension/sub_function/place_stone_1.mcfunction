@@ -1,0 +1,1 @@
+execute in minecraft:minigame run place template gis:mining_game/place_stone -21 15 -77

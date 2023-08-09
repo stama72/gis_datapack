@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:lava_bucket"
+      },
+      "title": {
+        "text": "業火の魔法",
+        "color": "white"
+      },
+      "description": {
+        "text": "業火の魔導士を倒す",
+        "color": "green"
+      },
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "gis:gameplay/_main/adv20",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

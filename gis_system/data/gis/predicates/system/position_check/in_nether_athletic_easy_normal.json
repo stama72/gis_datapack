@@ -1,0 +1,20 @@
+{
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "position": {
+      "x": {
+        "min": 27,
+        "max": 152
+      },
+      "y": {
+        "min": 0,
+        "max": 61
+      },
+      "z": {
+        "min": 74,
+        "max": 163
+      }
+    },
+    "dimension": "minecraft:gis_nether"
+  }
+}

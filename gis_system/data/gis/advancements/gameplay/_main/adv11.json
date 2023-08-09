@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:spruce_wood"
+    },
+    "title": {
+      "text": "グロウツリー設定所",
+      "color": "white"
+    },
+    "description": {
+      "text": "グロウツリー設定所へ行く",
+      "color": "green"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "gis:gameplay/_main/adv10",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:growtree"
+      }
+    }
+  }
+}

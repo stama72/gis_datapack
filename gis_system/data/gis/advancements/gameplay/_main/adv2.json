@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:pig_spawn_egg"
+    },
+    "title": {
+      "text": "豚…？",
+      "color": "white"
+    },
+    "description": {
+      "text": "豚毛を倒す",
+      "color": "green"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "gis:gameplay/_main/adv1",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:pig",
+          "nbt": "{DeathLootTable:\"gis:gis_mob/pig_wool\"}"
+        }
+      }
+    }
+  }
+}

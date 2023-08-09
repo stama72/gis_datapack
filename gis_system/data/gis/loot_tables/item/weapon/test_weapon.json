@@ -1,0 +1,38 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{CustomModelData:1,atk:10}"
+        },
+        {
+          "function": "minecraft:set_name",
+          "entity": "this",
+          "name": "テスト用武器1"
+        },
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {
+              "text": "ATK:+10",
+              "color": "white"
+            },
+            {
+              "text": "テスト用武器1",
+              "color": "white"
+            }
+          ],
+          "replace": true
+        }
+      ]
+    }
+  ]
+}

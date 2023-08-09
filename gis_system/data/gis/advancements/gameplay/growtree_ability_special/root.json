@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:oak_sapling"
+    },
+    "title": "=特殊技能の道=",
+    "description": "さらなる成長の力",
+    "background": "minecraft:textures/block/amethyst_block.png",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": []
+      }
+    }
+  }
+}

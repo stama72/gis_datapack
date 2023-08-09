@@ -1,0 +1,2 @@
+tellraw @s [{"text":"400000pt達成！！\n初回達成報酬："},{"text":"破χ獲得","color":"green"}]
+give @s golden_pickaxe{CanDestroy:["minecraft:spawner"],display:{Name:'[{"text":"破","color":"yellow","bold":true},{"text":"χ","color":"yellow"}]',Lore:['{"text":"その一振りでスポナーは無に還る。","color":"light_purple"}']},HideFlags:1,RepairCost:32768,ID:25,Enchantments:[{id:"minecraft:efficiency",lvl:4s}]} 1

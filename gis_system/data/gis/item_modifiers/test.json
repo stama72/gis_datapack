@@ -1,0 +1,42 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "aaa"
+      }
+    ],
+    "replace": true
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "1"
+      },
+      {
+        "nbt": "SelectedItem.tag.display.Lore.[0]",
+        "entity": "@s"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "2"
+      },
+      {
+        "nbt": "SelectedItem.tag.display.Lore.[0]",
+        "entity": "@s"
+      },
+      {
+        "nbt": "SelectedItem.tag.display.Lore.[1]",
+        "entity": "@s"
+      }
+    ]
+  }
+]

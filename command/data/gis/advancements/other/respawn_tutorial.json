@@ -1,0 +1,22 @@
+{
+  "parent": "gis:other/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "position": {
+            "y": {
+              "min": -100,
+              "max": 0
+            }
+          },
+          "dimension": "gis:tutorial"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "gis:advancement/other/respawn_tutorial"
+  }
+}

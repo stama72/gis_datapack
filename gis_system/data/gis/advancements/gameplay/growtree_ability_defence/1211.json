@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:structure_void",
+      "nbt": "{CustomModelData:7}"
+    },
+    "title": "不動の意思Ⅱ                ",
+    "description": [
+      "林の如く、山の如し\n",
+      "ノックバック耐性+0.2\n",
+      "ＴＰ:30"
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "gis:gameplay/growtree_ability_defence/121",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

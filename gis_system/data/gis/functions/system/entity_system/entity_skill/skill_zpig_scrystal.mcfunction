@@ -1,0 +1,1 @@
+execute at @s run effect give @a[distance=..3] minecraft:mining_fatigue 5 2

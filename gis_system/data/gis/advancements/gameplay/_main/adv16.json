@@ -1,0 +1,29 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:netherrack"
+      },
+      "title": {
+        "text": "灼熱の試練",
+        "color": "white"
+      },
+      "description": {
+        "text": "ネザーへ行く",
+        "color": "green"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "gis:gameplay/_main/adv2",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:changed_dimension",
+        "conditions": {
+          "to": "minecraft:gis_nether"
+        }
+      }
+    }
+  }
+  

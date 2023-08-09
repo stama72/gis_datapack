@@ -1,0 +1,5 @@
+execute as 0000006e-0000-0000-0000-000200000000 at @s run summon minecraft:potion ~ ~ ~ {Motion:[0.0,0.3,0.0],PortalCooldown:20,Owner:[I;110,0,1,0],Tags:["gis_boss_n_3"],Item:{id:"minecraft:splash_potion",Count:1b,tag:{CustomPotionColor:9699328,CustomPotionEffects:[{Id:7b,Amplifier:2b,Duration:1}]}}}
+execute as 0000006e-0000-0000-0000-000200000000 at @s run summon minecraft:potion ~ ~ ~ {Motion:[0.0,0.3,0.0],PortalCooldown:20,Owner:[I;110,0,1,0],Tags:["gis_boss_n_3"],Item:{id:"minecraft:splash_potion",Count:1b,tag:{CustomPotionColor:9699328,CustomPotionEffects:[{Id:7b,Amplifier:2b,Duration:1}]}}}
+execute as 0000006e-0000-0000-0000-000200000000 at @s run summon minecraft:potion ~ ~ ~ {Motion:[0.0,0.3,0.0],PortalCooldown:20,Owner:[I;110,0,1,0],Tags:["gis_boss_n_3"],Item:{id:"minecraft:splash_potion",Count:1b,tag:{CustomPotionColor:9699328,CustomPotionEffects:[{Id:7b,Amplifier:2b,Duration:1}]}}}
+execute as 0000006e-0000-0000-0000-000200000000 at @s run playsound minecraft:block.brewing_stand.brew master @a ~ ~ ~ 1 1
+execute as 0000006e-0000-0000-0000-000200000000 at @s run spreadplayers ~ ~ 1 8 under 25 false @e[tag=gis_boss_n_3,nbt={PortalCooldown:20}]

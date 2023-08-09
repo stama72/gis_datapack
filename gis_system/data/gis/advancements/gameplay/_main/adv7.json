@@ -1,0 +1,29 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:red_concrete"
+      },
+      "title": {
+        "text": "息抜き",
+        "color": "white"
+      },
+      "description": {
+        "text": "遊戯場へ行く",
+        "color": "green"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "gis:gameplay/_main/adv4",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:changed_dimension",
+        "conditions": {
+          "to": "gis:minigame"
+        }
+      }
+    }
+  }
+  

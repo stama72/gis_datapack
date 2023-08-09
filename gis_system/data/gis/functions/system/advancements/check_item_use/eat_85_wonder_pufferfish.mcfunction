@@ -1,0 +1,1 @@
+schedule function gis:system/advancements/check_item_use/eat_85_wonder_pufferfish_sub_schedule 1t append

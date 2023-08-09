@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_apple"
+    },
+    "title": {
+      "text": "呪われた鍛冶屋",
+      "color": "white"
+    },
+    "description": {
+      "text": "呪われた鍛冶屋を治療する",
+      "color": "green"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "gis:gameplay/_main/adv27",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:cured_zombie_villager",
+      "conditions": {
+        "zombie": {
+          "nbt": "{DeathLootTable:\"gis:gis_mob/vzom_smith\"}"
+        }
+      }
+    }
+  }
+}

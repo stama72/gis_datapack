@@ -1,0 +1,2 @@
+tellraw @s [{"text":"150000pt達成！！\n初回達成報酬："},{"text":"堅硬なツルハシ獲得","color":"green"}]
+give @s minecraft:stone_pickaxe{ID:127,display:{Name:'{"text":"堅硬なツルハシ","color":"dark_green","bold":true}',Lore:['{"text":"カッチカチやぞ！！","color":"red","bold":true}']},Unbreakable:1b,Enchantments:[{id:"minecraft:efficiency",lvl:4s}]} 1

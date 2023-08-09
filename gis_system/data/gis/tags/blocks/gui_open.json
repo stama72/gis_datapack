@@ -1,0 +1,29 @@
+
+{
+  "replace": false,
+  "values": [
+      "#minecraft:shulker_boxes",
+      "minecraft:chest",
+      "minecraft:trapped_chest",
+      "minecraft:barrel",
+      "minecraft:damaged_anvil",
+      "minecraft:chipped_anvil",
+      "minecraft:anvil",
+      "minecraft:enchanting_table",
+      "minecraft:brewing_stand",
+      "minecraft:beacon",
+      "minecraft:furnace",
+      "minecraft:smithing_table",
+      "minecraft:crafting_table",
+      "minecraft:dispenser",
+      "minecraft:dropper",
+      "minecraft:hopper",
+      "minecraft:ender_chest",
+      "minecraft:stonecutter",
+      "minecraft:cartography_table",
+      "minecraft:grindstone",
+      "minecraft:blast_furnace",
+      "minecraft:smoker",
+      "minecraft:loom"
+  ]
+}

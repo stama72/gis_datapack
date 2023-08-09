@@ -1,0 +1,6 @@
+execute as @a[distance=..5] at @s if block ~ ~ ~ minecraft:stone_pressure_plate unless data entity @s {Inventory:[]} run tellraw @s {"text":"パズル内にアイテムを持ち込むことはできません。"}
+execute as @a[distance=..5] at @s if block ~ ~ ~ minecraft:stone_pressure_plate unless data entity @s {Inventory:[]} run execute in gis:gis_nether run tp @s -6.5 20.50 -60.0 90 0
+execute as @a[distance=..5] at @s if block ~ ~ ~ minecraft:stone_pressure_plate if data entity @s {Inventory:[]} run title @s title {"text":"静のパズル"}
+execute as @a[distance=..5] at @s if block ~ ~ ~ minecraft:stone_pressure_plate if data entity @s {Inventory:[]} unless entity @a[x=-83,y=11,z=-125,dx=47,dy=24,dz=47,nbt={Dimension:"gis:gis_nether"}] run fill -59 11 -122 -60 11 -121 minecraft:chiseled_quartz_block
+execute as @a[distance=..5] at @s if block ~ ~ ~ minecraft:stone_pressure_plate if data entity @s {Inventory:[]} unless entity @a[x=-83,y=11,z=-125,dx=47,dy=24,dz=47,nbt={Dimension:"gis:gis_nether"}] run execute as @e[tag=gis_puzzle_s,limit=1,sort=random] at @s run clone -85 ~ -75 -58 ~ -48 -73 13 -115
+execute as @a[distance=..5] at @s if block ~ ~ ~ minecraft:stone_pressure_plate if data entity @s {Inventory:[]} run execute in gis:gis_nether run tp @s -59.0 12.00 -80.0 180 0

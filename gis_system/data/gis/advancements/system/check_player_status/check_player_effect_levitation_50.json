@@ -1,0 +1,33 @@
+{
+  "parent": "gis:system/check_player_status/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:levitation": {
+                  "amplifier": {
+                    "min": 50,
+                    "max": 50
+                  },
+                  "duration": {
+                    "min": 0,
+                    "max": 18
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "gis:system/advancements/check_player_status/check_player_effect_levitation_50"
+  }
+}

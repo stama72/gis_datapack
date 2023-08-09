@@ -1,0 +1,45 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": [
+      {
+        "score": {
+          "name": "@s",
+          "objective": "gis_status_dmg"
+        },
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": [
+      {
+        "text": "✧",
+        "italic": false
+      },
+      {
+        "score": {
+          "name": "@s",
+          "objective": "gis_status_dmg"
+        },
+        "bold": true
+      },
+      {
+        "text": "✧",
+        "bold": false
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{Tags:[\"gis_critical_attacked\"]}"
+        }
+      }
+    ]
+  }
+]

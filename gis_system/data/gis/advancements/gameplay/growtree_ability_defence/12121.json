@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:structure_void",
+      "nbt": "{CustomModelData:5}"
+    },
+    "title": "体力増強Ⅳ                ",
+    "description": [
+      "決して諦めないヒーロー\n",
+      "ＨＰ+4\n",
+      "ＴＰ:40                       "
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "gis:gameplay/growtree_ability_defence/1212",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,2 @@
+execute as 0000006e-0000-0000-0000-000200000000 at @s run particle minecraft:crit ^ ^ ^3 0.2 0.2 0.2 1 1000
+execute as 0000006e-0000-0000-0000-000200000000 at @s run playsound minecraft:entity.enderman.teleport master @a ~ ~ ~ 1 1.2

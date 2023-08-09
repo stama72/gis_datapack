@@ -1,0 +1,2 @@
+kill @e[tag=gis_aec_nether_athletic_normal]
+execute in minecraft:gis_nether positioned 122.5 8.00 144.5 run summon minecraft:area_effect_cloud ~ ~ ~ {Particle:"effect",Radius:2f,RadiusPerTick:0f,RadiusOnUse:0f,Duration:2147483647,DurationOnUse:0f,Age:0,WaitTime:0,Color:16777215,Tags:["gis_aec_nether_athletic_normal"],Effects:[{Id:25,Amplifier:20b,Duration:40}]}

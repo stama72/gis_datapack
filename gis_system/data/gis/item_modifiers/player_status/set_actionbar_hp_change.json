@@ -1,0 +1,60 @@
+[
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "minecraft:gis"
+    },
+    "ops": [
+      {
+        "source": "system.data.text.other.hp+",
+        "target": "actionbar.diffarence.hp",
+        "op": "replace"
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "gis_status_hp_check": {
+            "max": {
+              "type": "minecraft:score",
+              "target": "this",
+              "score": "gis_status_hp"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "minecraft:gis"
+    },
+    "ops": [
+      {
+        "source": "system.data.text.other.hp-",
+        "target": "actionbar.diffarence.hp",
+        "op": "replace"
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "gis_status_hp_check": {
+            "min": {
+              "type": "minecraft:score",
+              "target": "this",
+              "score": "gis_status_hp"
+            }
+          }
+        }
+      }
+    ]
+  }
+]

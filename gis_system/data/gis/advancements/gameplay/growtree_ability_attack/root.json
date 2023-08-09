@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:fire_coral"
+    },
+    "title": "=攻勢の道=",
+    "description": "何物をも打ち砕く破壊の力",
+    "background": "minecraft:textures/block/nether_wart_block.png",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": []
+      }
+    }
+  }
+}

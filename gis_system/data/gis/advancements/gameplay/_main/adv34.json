@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:sunflower"
+    },
+    "title": {
+      "text": "遺跡島の宝物庫",
+      "color": "white"
+    },
+    "description": {
+      "text": "遺跡島の太陽の扉の先に進む",
+      "color": "green"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "gis:gameplay/_main/adv28",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "position": {
+            "x": {
+              "min": 142,
+              "max": 153
+            },
+            "y": {
+              "min": 140,
+              "max": 147
+            },
+            "z": {
+              "min": -37,
+              "max": -5
+            }
+          },
+          "dimension": "minecraft:overworld"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:structure_void",
+      "nbt": "{CustomModelData:5}"
+    },
+    "title": "体力増強Ⅴ                ",
+    "description": [
+      "果ての力、果つることなく\n",
+      "ＨＰ+4\n",
+      "ＴＰ:60"
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "gis:gameplay/growtree_ability_defence/111112",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

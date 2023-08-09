@@ -1,0 +1,14 @@
+{
+  "parent": "gis:system/check_change_dimention/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:end_boss"
+      }
+    }
+  },
+  "rewards": {
+    "function": "gis:system/advancements/check_change_dimention/to_end_boss"
+  }
+}

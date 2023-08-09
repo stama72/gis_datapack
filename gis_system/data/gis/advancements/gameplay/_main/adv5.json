@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:emerald"
+      },
+      "title": {
+        "text": "冒険の準備",
+        "color": "white"
+      },
+      "description": {
+        "text": "村人と交易する",
+        "color": "green"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "gis:gameplay/_main/adv4",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:villager_trade",
+        "conditions": {}
+      }
+    }
+  }
+  

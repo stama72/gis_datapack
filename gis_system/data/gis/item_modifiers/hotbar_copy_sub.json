@@ -1,0 +1,27 @@
+[
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "minecraft:gis"
+    },
+    "ops": [
+      {
+        "source": "system.data.text.other.copyed",
+        "target": "system.instant.copyed",
+        "op": "replace"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:copy_nbt",
+    "source": "this",
+    "ops": [
+      {
+        "source": "Inventory.[{Slot:9b}].tag.system.instant.hotbar",
+        "target": "system.instant.hotbar",
+        "op": "replace"
+      }
+    ]
+  }
+]

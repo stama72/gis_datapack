@@ -1,0 +1,79 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"スキル7\"}',Lore:['[{\"keybind\":\"key.use\"},{\"text\":\"でスキル発動\"}]','[{\"keybind\":\"key.sneak\"},{\"text\":\"でチャージ\"}]']},Unbreakable:1b,CustomModelData:1,system:{instant:{slot:7,set:7,type:\"skill\"}},Enchantments:[{}]}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"スキル6\"}',Lore:['[{\"keybind\":\"key.use\"},{\"text\":\"でスキル発動\"}]','[{\"keybind\":\"key.sneak\"},{\"text\":\"でチャージ\"}]']},Unbreakable:1b,CustomModelData:1,system:{instant:{slot:7,set:6,type:\"skill\"}},Enchantments:[{}]}",
+              "conditions": [
+                {
+                  "condition": "minecraft:alternative",
+                  "terms": [
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{SelectedItemSlot:6}"
+                      }
+                    },
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{SelectedItemSlot:5}"
+                      }
+                    },
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{SelectedItemSlot:4}"
+                      }
+                    },
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{SelectedItemSlot:3}"
+                      }
+                    },
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{SelectedItemSlot:2}"
+                      }
+                    },
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{SelectedItemSlot:1}"
+                      }
+                    },
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{SelectedItemSlot:0}"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

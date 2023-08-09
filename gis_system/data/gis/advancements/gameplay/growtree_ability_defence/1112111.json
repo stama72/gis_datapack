@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:structure_void",
+      "nbt": "{CustomModelData:6}"
+    },
+    "title": "鋼の肉体Ⅲ                ",
+    "description": [
+      "何人たりとも貫けぬその体\n",
+      "防具値+6\n",
+      "ＴＰ:60"
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "gis:gameplay/growtree_ability_defence/111211",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

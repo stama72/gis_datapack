@@ -1,0 +1,12 @@
+
+{
+  "replace": false,
+  "values": [
+      "minecraft:player",
+      "minecraft:leash_knot",
+      "minecraft:egg",
+      "minecraft:glow_item_frame",
+      "minecraft:item_frame",
+      "minecraft:painting"
+  ]
+}

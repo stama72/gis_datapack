@@ -1,0 +1,48 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                {
+                  "translate": "JOB 3",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": " ",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "translate": "LV.",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "score": {
+                    "name": "@s",
+                    "objective": "gis_status_job3_level"
+                  },
+                  "bold": true,
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

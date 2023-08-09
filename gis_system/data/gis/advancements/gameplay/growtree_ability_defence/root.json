@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:tube_coral"
+    },
+    "title": "=耐久の道=",
+    "description": "何物にも貫かれぬ守護の力",
+    "background": "minecraft:textures/block/warped_wart_block.png",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": []
+      }
+    }
+  }
+}

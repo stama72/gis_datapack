@@ -1,0 +1,2 @@
+tellraw @s [{"text":"350000pt達成！！\n初回達成報酬："},{"text":"大炭鉱夫のツルハシ獲得","color":"green"}]
+give @s diamond_pickaxe{ID:49,display:{Name:'{"text":"大炭鉱夫のツルハシ","color":"aqua","bold":true}',Lore:['{"text":"昔の偉大な炭鉱夫が使っていたツルハシ。","color":"yellow"}']},Enchantments:[{id:"minecraft:efficiency",lvl:5s},{id:"minecraft:fortune",lvl:10s}]} 1

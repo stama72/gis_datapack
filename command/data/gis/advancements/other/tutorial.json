@@ -1,0 +1,56 @@
+{
+  "parent": "gis:other/root",
+  "criteria": {
+    "tutorial1": {
+      "trigger": "minecraft:impossible"
+    },
+    "tutorial2": {
+      "trigger": "minecraft:impossible"
+    },
+    "tutorial3": {
+      "trigger": "minecraft:impossible"
+    },
+    "tutorial4": {
+      "trigger": "minecraft:impossible"
+    },
+    "tutorial5": {
+      "trigger": "minecraft:impossible"
+    },
+    "tutorial6": {
+      "trigger": "minecraft:impossible"
+    },
+    "tutorial7": {
+      "trigger": "minecraft:impossible"
+    },
+    "tutorial8": {
+      "trigger": "minecraft:impossible"
+    },
+    "tutorial9": {
+      "trigger": "minecraft:impossible"
+    },
+    "tutorial10": {
+      "trigger": "minecraft:impossible"
+    },
+    "tutorial11": {
+      "trigger": "minecraft:impossible"
+    },
+    "tutorial12": {
+      "trigger": "minecraft:impossible"
+    },
+    "tutorial13": {
+      "trigger": "minecraft:impossible"
+    },
+    "tutorial14": {
+      "trigger": "minecraft:impossible"
+    },
+    "tutorial15": {
+      "trigger": "minecraft:impossible"
+    },
+    "tutorial16": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "gis:advancement/other/tutorial"
+  }
+}

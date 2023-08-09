@@ -1,0 +1,35 @@
+# 円 2
+particle end_rod ^0 ^ ^-0.6 0 0 0 0 1
+particle end_rod ^0.27883 ^ ^-0.53127 0 0 0 0 1
+particle end_rod ^0.49379 ^ ^-0.34084 0 0 0 0 1
+particle end_rod ^0.59563 ^ ^-0.07232 0 0 0 0 1
+particle end_rod ^0.56101 ^ ^0.21276 0 0 0 0 1
+particle end_rod ^0.39787 ^ ^0.44911 0 0 0 0 1
+particle end_rod ^0.14359 ^ ^0.58257 0 0 0 0 1
+particle end_rod ^-0.14359 ^ ^0.58257 0 0 0 0 1
+particle end_rod ^-0.39787 ^ ^0.44911 0 0 0 0 1
+particle end_rod ^-0.56101 ^ ^0.21276 0 0 0 0 1
+particle end_rod ^-0.59563 ^ ^-0.07232 0 0 0 0 1
+particle end_rod ^-0.49379 ^ ^-0.34084 0 0 0 0 1
+particle end_rod ^-0.27883 ^ ^-0.53127 0 0 0 0 1
+# 円 1
+particle end_rod ^0 ^ ^-0.8 0 0 0 0 1
+particle end_rod ^0.24721 ^ ^-0.76085 0 0 0 0 1
+particle end_rod ^0.47023 ^ ^-0.64721 0 0 0 0 1
+particle end_rod ^0.64721 ^ ^-0.47023 0 0 0 0 1
+particle end_rod ^0.76085 ^ ^-0.24721 0 0 0 0 1
+particle end_rod ^0.8 ^ ^0 0 0 0 0 1
+particle end_rod ^0.76085 ^ ^0.24721 0 0 0 0 1
+particle end_rod ^0.64721 ^ ^0.47023 0 0 0 0 1
+particle end_rod ^0.47023 ^ ^0.64721 0 0 0 0 1
+particle end_rod ^0.24721 ^ ^0.76085 0 0 0 0 1
+particle end_rod ^0 ^ ^0.8 0 0 0 0 1
+particle end_rod ^-0.24721 ^ ^0.76085 0 0 0 0 1
+particle end_rod ^-0.47023 ^ ^0.64721 0 0 0 0 1
+particle end_rod ^-0.64721 ^ ^0.47023 0 0 0 0 1
+particle end_rod ^-0.76085 ^ ^0.24721 0 0 0 0 1
+particle end_rod ^-0.8 ^ ^0 0 0 0 0 1
+particle end_rod ^-0.76085 ^ ^-0.24721 0 0 0 0 1
+particle end_rod ^-0.64721 ^ ^-0.47023 0 0 0 0 1
+particle end_rod ^-0.47023 ^ ^-0.64721 0 0 0 0 1
+particle end_rod ^-0.24721 ^ ^-0.76085 0 0 0 0 1

@@ -1,0 +1,19 @@
+{
+  "parent": "gis:other/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:spyglass"
+          ],
+          "nbt": "{ID:156}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "gis:item/spyglass"
+  }
+}

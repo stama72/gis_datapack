@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:anvil"
+      },
+      "title": {
+        "text": "落ちる島",
+        "color": "white"
+      },
+      "description": {
+        "text": "噴水島のギミックを作動させ、金床島を落下させる",
+        "color": "green"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "gis:gameplay/_main/adv26",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

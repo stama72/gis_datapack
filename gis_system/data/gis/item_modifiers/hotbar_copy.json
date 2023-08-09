@@ -1,0 +1,53 @@
+[
+  {
+    "function": "minecraft:copy_nbt",
+    "source": "this",
+    "ops": [
+      {
+        "source": "Inventory.[{Slot:8b}]",
+        "target": "system.instant.hotbar",
+        "op": "append"
+      },
+      {
+        "source": "Inventory.[{Slot:7b}]",
+        "target": "system.instant.hotbar",
+        "op": "append"
+      },
+      {
+        "source": "Inventory.[{Slot:6b}]",
+        "target": "system.instant.hotbar",
+        "op": "append"
+      },
+      {
+        "source": "Inventory.[{Slot:5b}]",
+        "target": "system.instant.hotbar",
+        "op": "append"
+      },
+      {
+        "source": "Inventory.[{Slot:4b}]",
+        "target": "system.instant.hotbar",
+        "op": "append"
+      },
+      {
+        "source": "Inventory.[{Slot:3b}]",
+        "target": "system.instant.hotbar",
+        "op": "append"
+      },
+      {
+        "source": "Inventory.[{Slot:2b}]",
+        "target": "system.instant.hotbar",
+        "op": "append"
+      },
+      {
+        "source": "Inventory.[{Slot:1b}]",
+        "target": "system.instant.hotbar",
+        "op": "append"
+      },
+      {
+        "source": "Inventory.[{Slot:0b}]",
+        "target": "system.instant.hotbar",
+        "op": "append"
+      }
+    ]
+  }
+]

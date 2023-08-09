@@ -1,0 +1,2 @@
+execute as 0000006e-0000-0000-0000-000200000000 at @s run summon minecraft:creeper ~ ~ ~ {Health:1000f,powered:1b,Fuse:1,ignited:1b,Tags:["gis_mob","gis_boss_n_1"],CustomName:'{"text":"業火の魔導士"}',ActiveEffects:[{Id:7b,Amplifier:4b,Duration:100},{Id:14b,Amplifier:0b,Duration:1}],Attributes:[{Name:generic.max_health,Base:1000}]}
+execute as 0000006e-0000-0000-0000-000200000000 at @s run spreadplayers 170 -1.00 1 17 under 25 false @e[tag=gis_boss_n_1]

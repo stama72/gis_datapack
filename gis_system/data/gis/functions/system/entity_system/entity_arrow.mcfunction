@@ -1,0 +1,13 @@
+execute as @s[nbt={Color:7208740,inGround:1b}] at @s run setblock ~ ~ ~ water keep
+execute as @s[nbt={Color:7208740,inGround:1b}] run kill @s
+execute as @s[nbt={Color:2414080,inGround:1b}] at @s run summon minecraft:area_effect_cloud ~ ~ ~ {Particle:"dust 0.220 0.941 0.075 1",Radius:5f,RadiusPerTick:0f,RadiusOnUse:0f,Duration:200,Effects:[{Id:8b,Amplifier:10b,Duration:200}]}
+execute as @s[nbt={Color:2414080,inGround:1b}] run kill @s
+execute as @s[nbt={Color:30719,inGround:1b}] at @s run summon minecraft:area_effect_cloud ~ ~ ~ {Particle:"dust 0.000 0.467 1.000 1",Radius:5f,RadiusPerTick:0f,RadiusOnUse:0f,Duration:200,Effects:[{Id:2b,Amplifier:4b,Duration:200},{Id:4b,Amplifier:1b,Duration:200}]}
+execute as @s[nbt={Color:30719,inGround:1b}] run kill @s
+execute as @s[nbt={Color:10616743,PortalCooldown:0}] store result entity @s Motion.[0] double 0.00001 run data get entity @s Motion.[0] 10000
+execute as @s[nbt={Color:10616743,PortalCooldown:0}] store result entity @s Motion.[1] double 0.000009 run data get entity @s Motion.[1] 10000
+execute as @s[nbt={Color:10616743,PortalCooldown:0}] store result entity @s Motion.[2] double 0.00001 run data get entity @s Motion.[2] 10000
+execute as @s[nbt={Color:10616743}] run data modify entity @s NoGravity set value 1b
+execute as @s[nbt={Color:10616743,PortalCooldown:0}] run data modify entity @s PortalCooldown set value 100
+execute as @s[nbt={Color:10616743}] run data modify entity @s Color set value -1
+kill @s[nbt={PortalCooldown:1}]

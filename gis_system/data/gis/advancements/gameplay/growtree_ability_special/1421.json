@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:structure_void",
+      "nbt": "{Enchantments:[{id:\"minecraft:soul_speed\",lvl:1s}],CustomModelData:20}"
+    },
+    "title": "天照                ",
+    "description": [
+      "※解放条件なし\n",
+      "全てを照らす日神の恵みを\n",
+      "日中再生+2\n",
+      "日中攻撃力上昇+5\n",
+      "日中耐性+1\n",
+      "ＴＰ:128"
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "gis:gameplay/growtree_ability_special/142",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

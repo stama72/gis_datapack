@@ -1,0 +1,43 @@
+{
+  "parent": "gis:system/check_location/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "x": {
+                    "min": 5,
+                    "max": 8
+                  },
+                  "y": {
+                    "min": 30,
+                    "max": 31
+                  },
+                  "z": {
+                    "min": 122,
+                    "max": 125
+                  }
+                },
+                "dimension": "minecraft:gis_nether",
+                "block": {
+                  "blocks": [
+                    "minecraft:end_gateway"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "gis:system/advancements/check_location/end_gateway_nether_athletic_goal"
+  }
+}

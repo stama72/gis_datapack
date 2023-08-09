@@ -1,0 +1,19 @@
+[
+  {
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:reference",
+        "name": "gis:system/position_check/in_nether_athletic_easy_normal"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "gis:system/position_check/in_nether_athletic_hard"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "gis:system/position_check/in_nether_puzzl_active"
+      }
+    ]
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "parent": "gis:system/check_location/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "x": {
+                    "min": -11,
+                    "max": -10
+                  },
+                  "y": {
+                    "min": 21,
+                    "max": 23
+                  },
+                  "z": {
+                    "min": 60,
+                    "max": 62
+                  }
+                },
+                "dimension": "minecraft:gis_nether",
+                "block": {
+                  "blocks": [
+                    "minecraft:end_gateway"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "gis:system/advancements/check_location/end_gateway_nether_athletic_lobby_easy"
+  }
+}

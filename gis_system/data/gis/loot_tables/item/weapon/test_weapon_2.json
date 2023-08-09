@@ -1,0 +1,63 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,unidentified:\"true\",HideFlags:2}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "テスト用武器２"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "status:???",
+                  "color": "white"
+                },
+                {
+                  "text": "テスト用武器2",
+                  "color": "white"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.flying_speed",
+                  "name": "set_atk",
+                  "amount": {
+                    "min": 0.0001,
+                    "max": 0.001
+                  },
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "minecraft:generic.flying_speed",
+                  "name": "set_def",
+                  "amount": {
+                    "min": 0.0001,
+                    "max": 0.001
+                  },
+                  "operation": "addition",
+                  "slot": "mainhand"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

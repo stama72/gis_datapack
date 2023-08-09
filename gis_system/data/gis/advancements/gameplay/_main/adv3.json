@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:smooth_quartz"
+    },
+    "title": {
+      "text": "Welcome to Hotel ISKA",
+      "color": "white"
+    },
+    "description": {
+      "text": "ホテル島へ行く",
+      "color": "green"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "gis:gameplay/_main/adv2",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "position": {
+                "x": {
+                  "min": 151,
+                  "max": 287
+                },
+                "y": {
+                  "min": 0,
+                  "max": 82
+                },
+                "z": {
+                  "min": 27,
+                  "max": 146
+                }
+              },
+              "dimension": "minecraft:overworld"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

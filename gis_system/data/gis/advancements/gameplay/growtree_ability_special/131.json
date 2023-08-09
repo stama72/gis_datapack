@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:structure_void",
+      "nbt": "{Enchantments:[{id:\"minecraft:soul_speed\",lvl:1s}],CustomModelData:13}"
+    },
+    "title": "疾風迅雷                ",
+    "description": [
+      "※攻勢の道lv7で解放可能\n",
+      "天空に迸る雷光と化して\n",
+      "移動速度上昇+2\n",
+      "採掘速度上昇+1\n",
+      "ＴＰ:64"
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "gis:gameplay/growtree_ability_special/_13",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

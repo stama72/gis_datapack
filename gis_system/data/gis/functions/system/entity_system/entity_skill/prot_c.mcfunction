@@ -1,0 +1,1 @@
+execute as @s[nbt={PortalCooldown:1}] at @s run tp ~ -100 ~

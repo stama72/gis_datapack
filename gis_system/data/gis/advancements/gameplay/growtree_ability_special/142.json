@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:structure_void",
+      "nbt": "{Enchantments:[{id:\"minecraft:soul_speed\",lvl:1s}],CustomModelData:17}"
+    },
+    "title": "炎の心                ",
+    "description": [
+      "※解放条件なし\n",
+      "燃え盛る灼熱の精神\n",
+      "火炎耐性\n",
+      "攻撃時炎上付与\n",
+      "ＴＰ:64"
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "gis:gameplay/growtree_ability_special/_14",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

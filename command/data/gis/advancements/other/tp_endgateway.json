@@ -1,0 +1,14 @@
+{
+  "parent": "gis:other/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:end_gateway"
+      }
+    }
+  },
+  "rewards": {
+    "function": "gis:advancement/other/tp_endgateway"
+  }
+}

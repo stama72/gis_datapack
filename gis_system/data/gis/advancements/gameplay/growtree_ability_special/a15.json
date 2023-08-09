@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:structure_void",
+      "nbt": "{Enchantments:[{id:\"minecraft:soul_speed\",lvl:1s}],CustomModelData:14}"
+    },
+    "title": "迎撃の楯                ",
+    "description": [
+      "※耐久の道lv3以上で解放可能\n",
+      "防御は最大(希望)の攻撃\n",
+      "盾使用時カウンター発動\n",
+      "ＴＰ:32"
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "gis:gameplay/growtree_ability_special/01",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

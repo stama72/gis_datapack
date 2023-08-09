@@ -1,0 +1,2 @@
+execute at @s if predicate gis:system/entity_check/is_slow_fall run function gis:system/entity_system/entity_skill/skill_entity_void_resist_main
+execute at @s unless predicate gis:system/entity_check/is_slow_fall run function gis:system/entity_system/entity_skill/skill_entity_void_resist_pre

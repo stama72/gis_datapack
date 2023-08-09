@@ -1,0 +1,12 @@
+{
+  "parent": "gis:other/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  },
+  "rewards": {
+    "function": "gis:advancement/minigame/minegame/prize4"
+  }
+}

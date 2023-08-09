@@ -1,0 +1,1 @@
+execute at @s run effect give @a[distance=..1.2] minecraft:levitation 1 50 true

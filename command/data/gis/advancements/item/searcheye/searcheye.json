@@ -1,0 +1,19 @@
+{
+  "parent": "gis:other/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:potion"
+          ],
+          "nbt": "{ID:110}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "gis:item/searcheye"
+  }
+}

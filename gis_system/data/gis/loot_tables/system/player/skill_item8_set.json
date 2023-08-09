@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"スキル7\"}',Lore:['[{\"keybind\":\"key.use\"},{\"text\":\"でスキル発動\"}]','[{\"keybind\":\"key.sneak\"},{\"text\":\"でチャージ\"}]']},Unbreakable:1b,CustomModelData:1,system:{instant:{slot:8,set:7,type:\"skill\"}},Enchantments:[{}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:nether_star",
+      "nbt": "{Enchantments:[{id:\"minecraft:soul_speed\",lvl:1s}]}"
+    },
+    "title": "成命の星                ",
+    "description": [
+      "※耐久の道lv3以上で解放可能\n",
+      "成命樹は生命の樹\n",
+      "ＴＰスター取得時ＨＰ回復\n",
+      "ＴＰ:32"
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "gis:gameplay/growtree_ability_special/01",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

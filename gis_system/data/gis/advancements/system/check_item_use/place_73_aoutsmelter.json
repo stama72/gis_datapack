@@ -1,0 +1,40 @@
+{
+  "parent": "gis:system/check_item_use/root",
+  "criteria": {
+    "requirement2": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "gis:system/check_item_use/place_73_aoutsmelter": {
+                    "requirement": true
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:warped_sign"
+          ],
+          "nbt": "{sign:\"aoutsmelter\"}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "gis:system/advancements/check_item_use/place_73_aoutsmelter"
+  }
+}

@@ -1,0 +1,9 @@
+execute as @a[distance=..5] at @s if block ~ ~ ~ minecraft:stone_pressure_plate unless data entity @s {Inventory:[]} run tellraw @s {"text":"パズル内にアイテムを持ち込むことはできません。"}
+execute as @a[distance=..5] at @s if block ~ ~ ~ minecraft:stone_pressure_plate unless data entity @s {Inventory:[]} run execute in gis:gis_nether run tp @s 6.50 20.50 -60.0 269.40 2.04
+execute as @a[distance=..5] at @s if block ~ ~ ~ minecraft:stone_pressure_plate if data entity @s {Inventory:[]} run attribute @s minecraft:generic.movement_speed base set 0.1
+execute as @a[distance=..5] at @s if block ~ ~ ~ minecraft:stone_pressure_plate if data entity @s {Inventory:[]} run attribute @s minecraft:generic.max_health base set 6
+execute as @a[distance=..5] at @s if block ~ ~ ~ minecraft:stone_pressure_plate if data entity @s {Inventory:[]} run spawnpoint @s 0 22 -60
+execute as @a[distance=..5] at @s if block ~ ~ ~ minecraft:stone_pressure_plate if data entity @s {Inventory:[]} run effect give @s minecraft:instant_health
+execute as @a[distance=..5] at @s if block ~ ~ ~ minecraft:stone_pressure_plate if data entity @s {Inventory:[]} run title @s title {"text":"動のパズル"}
+execute as @a[distance=..5] at @s if block ~ ~ ~ minecraft:stone_pressure_plate if data entity @s {Inventory:[]} run function gis:other/nether/puzzle/puzzle_d_set
+execute as @a[distance=..5] at @s if block ~ ~ ~ minecraft:stone_pressure_plate if data entity @s {Inventory:[]} run execute in gis:gis_nether run tp @s 71.50 7.00 -76.50 180 0

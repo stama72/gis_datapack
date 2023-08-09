@@ -1,0 +1,16 @@
+{
+  "parent": "gis:system/check_item_use/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{ID:85}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "gis:system/advancements/check_item_use/eat_85_wonder_pufferfish"
+  }
+}

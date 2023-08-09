@@ -1,0 +1,51 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"スキル3\"}',Lore:['[{\"keybind\":\"key.use\"},{\"text\":\"でスキル発動\"}]','[{\"keybind\":\"key.sneak\"},{\"text\":\"でチャージ\"}]']},Unbreakable:1b,CustomModelData:1,system:{instant:{slot:3,set:3,type:\"skill\"}},Enchantments:[{}]}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"スキル2\"}',Lore:['[{\"keybind\":\"key.use\"},{\"text\":\"でスキル発動\"}]','[{\"keybind\":\"key.sneak\"},{\"text\":\"でチャージ\"}]']},Unbreakable:1b,CustomModelData:1,system:{instant:{slot:3,set:2,type:\"skill\"}},Enchantments:[{}]}",
+              "conditions": [
+                {
+                  "condition": "minecraft:alternative",
+                  "terms": [
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{SelectedItemSlot:2}"
+                      }
+                    },
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{SelectedItemSlot:1}"
+                      }
+                    },
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{SelectedItemSlot:0}"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

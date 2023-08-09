@@ -1,0 +1,33 @@
+{
+  "parent": "gis:other/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "position": {
+            "x": {
+              "min": 214,
+              "max": 249
+            },
+            "y": {
+              "min": 0,
+              "max": 2
+            },
+            "z": {
+              "min": 119,
+              "max": 131
+            }
+          },
+          "dimension": "minecraft:overworld",
+          "fluid": {
+            "fluid": "minecraft:water"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "gis:advancement/other/hot_spring"
+  }
+}
