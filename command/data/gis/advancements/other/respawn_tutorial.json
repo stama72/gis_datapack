@@ -11,7 +11,7 @@
               "max": 0
             }
           },
-          "dimension": "gis:tutorial"
+          "dimension": "minecraft:tutorial"
         }
       }
     }

@@ -11,7 +11,7 @@
               "max": 5
             }
           },
-          "dimension": "gis:gis_nether"
+          "dimension": "minecraft:gis_nether"
         }
       }
     }

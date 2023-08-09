@@ -1,5 +1,5 @@
-execute in gis:minigame positioned -0.5 15.00 -29.5 as @a[tag=minegame,distance=..2,nbt={Inventory:[]}] at @s run function gis:other/minigame/minegame_start
-execute in gis:minigame positioned -0.5 15.00 -29.5 as @a[tag=minegame,distance=..2,nbt=!{Inventory:[]}] at @s run tellraw @s {"text":"インベントリの中身を空にしてから\nエントランスにお進みください。"}
-execute in gis:minigame positioned -0.5 15.00 -29.5 as @a[tag=minegame,distance=..2,nbt=!{Inventory:[]}] at @s run execute in gis:minigame run tp @s -0.50 15.00 -21.50 180 0
+execute in minecraft:minigame positioned -0.5 15.00 -29.5 as @a[tag=minegame,distance=..2,nbt={Inventory:[]}] at @s run function gis:other/minigame/minegame_start
+execute in minecraft:minigame positioned -0.5 15.00 -29.5 as @a[tag=minegame,distance=..2,nbt=!{Inventory:[]}] at @s run tellraw @s {"text":"インベントリの中身を空にしてから\nエントランスにお進みください。"}
+execute in minecraft:minigame positioned -0.5 15.00 -29.5 as @a[tag=minegame,distance=..2,nbt=!{Inventory:[]}] at @s run execute in minecraft:minigame run tp @s -0.50 15.00 -21.50 180 0
 execute if score #minegame instant_sub matches 1 run function gis:other/minigame/minegame_main
 execute if score #minegame instant_sub matches 2 run function gis:other/minigame/minegame_end

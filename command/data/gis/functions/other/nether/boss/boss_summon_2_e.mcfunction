@@ -1,1 +1,1 @@
-execute in gis:gis_nether positioned 170.00 22.5 -1.0 rotated 0 0 run function gis:mob/mobskill/boss_n/sub/particle
+execute in minecraft:gis_nether positioned 170.00 22.5 -1.0 rotated 0 0 run function gis:mob/mobskill/boss_n/sub/particle

@@ -1,4 +1,4 @@
-gamemode adventure @s[nbt={Dimension:"gis:gis_nether"},gamemode=survival]
+gamemode adventure @s[nbt={Dimension:"minecraft:gis_nether"},gamemode=survival]
 gamemode survival @s[nbt={Dimension:"minecraft:overworld"},gamemode=adventure]
 scoreboard players reset @s instant
 scoreboard players add @s[advancements={gis:ability_attack/01_=true}] instant 5

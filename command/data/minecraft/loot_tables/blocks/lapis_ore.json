@@ -47,7 +47,7 @@
                     {
                       "condition": "minecraft:location_check",
                       "predicate": {
-                        "dimension": "gis:minigame"
+                        "dimension": "minecraft:minigame"
                       }
                     }
                   ]

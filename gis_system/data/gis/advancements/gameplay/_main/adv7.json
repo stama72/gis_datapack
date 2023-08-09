@@ -21,7 +21,7 @@
       "requirement": {
         "trigger": "minecraft:changed_dimension",
         "conditions": {
-          "to": "gis:minigame"
+          "to": "minecraft:minigame"
         }
       }
     }
