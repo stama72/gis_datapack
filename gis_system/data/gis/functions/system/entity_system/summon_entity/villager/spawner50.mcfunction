@@ -2,5 +2,5 @@ execute in minecraft:overworld run summon minecraft:villager 210.50 48.0 80.50 {
 tellraw @a {"text":"スポナー破壊率50%突破！！\nホテル5階に製作者村人[Omokage_R]が到着した。"}
 execute as @a at @s run playsound minecraft:entity.player.levelup player @s ~ ~ ~ 1 1.7
 data merge storage gis.adv36 {t:1}
-advancement grant @a only gis:_main/adv36
+advancement grant @a only gis:gameplay/_main/adv36
 scoreboard players set #spawner instant_sub 3
