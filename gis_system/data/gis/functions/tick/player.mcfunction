@@ -1,1 +1,1 @@
-execute unless predicate gis:system/position_check/in_growtree_no_active_area unless predicate gis:system/position_check/under_-64 run function gis:system/player_system/set_plaayer_effect
+execute unless predicate gis:system/position_check/in_growtree_no_active_area unless predicate gis:system/position_check/under_-64 run function gis:system/player_system/set_player_effect

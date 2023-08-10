@@ -21,23 +21,12 @@
     "requirement": {
       "trigger": "minecraft:location",
       "conditions": {
-        "location": {
-          "position": {
-            "x": {
-              "min": 142,
-              "max": 153
-            },
-            "y": {
-              "min": 140,
-              "max": 147
-            },
-            "z": {
-              "min": -37,
-              "max": -5
-            }
-          },
-          "dimension": "minecraft:overworld"
-        }
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "gis:system/position_check/in_ruins_treasury"
+          }
+        ]
       }
     }
   }

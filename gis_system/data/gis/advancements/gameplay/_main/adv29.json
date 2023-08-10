@@ -21,15 +21,12 @@
     "requirement": {
       "trigger": "minecraft:location",
       "conditions": {
-        "location": {
-          "position": {
-            "y": {
-              "min": 125,
-              "max": 200
-            }
-          },
-          "biome": "minecraft:snowy_taiga_hills"
-        }
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "gis:system/position_check/in_isuka_inn"
+          }
+        ]
       }
     }
   }

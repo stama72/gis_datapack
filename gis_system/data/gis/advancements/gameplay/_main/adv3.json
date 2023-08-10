@@ -19,28 +19,12 @@
   "parent": "gis:gameplay/_main/adv2",
   "criteria": {
     "requirement": {
-      "trigger": "minecraft:tick",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": [
           {
-            "condition": "minecraft:location_check",
-            "predicate": {
-              "position": {
-                "x": {
-                  "min": 151,
-                  "max": 287
-                },
-                "y": {
-                  "min": 0,
-                  "max": 82
-                },
-                "z": {
-                  "min": 27,
-                  "max": 146
-                }
-              },
-              "dimension": "minecraft:overworld"
-            }
+          "condition": "minecraft:reference",
+          "name": "gis:system/position_check/in_hotel"
           }
         ]
       }

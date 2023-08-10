@@ -1,0 +1,13 @@
+{
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "position": {
+      "y": {
+        "min": 125,
+        "max": 200
+      }
+    },
+    "biome": "minecraft:snowy_taiga_hills",
+    "dimension": "minecraft:overworld"
+  }
+}

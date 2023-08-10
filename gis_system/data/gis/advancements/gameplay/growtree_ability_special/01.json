@@ -21,6 +21,6 @@
     }
   },
   "rewards": {
-    "function": "gis:growtree/attlibute"
+    "function": "gis:system/player_system/set_player_attlibute"
   }
 }

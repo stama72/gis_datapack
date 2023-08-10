@@ -1,7 +1,7 @@
 #ログイン処理
 scoreboard players set @a[scores={leave_game=1..}] trigger_reset -300
 scoreboard players enable @a[scores={leave_game=1..}] gis_trigger
-execute as @a[scores={leave_game=1..},nbt={Health:20f}] run function gis:growtree/attlibute_sub
+execute as @a[scores={leave_game=1..},nbt={Health:20f}] run function gis:system/player_system/set_player_attlibute_sub
 execute as @a[x=143,y=17,z=-28,dx=53,dy=26,dz=53,nbt={Dimension:"minecraft:gis_nether"},scores={leave_game=1..}] at @s run tag @s add killed_nether_boss
 execute as @a[x=143,y=17,z=-28,dx=53,dy=26,dz=53,nbt={Dimension:"minecraft:gis_nether"},scores={leave_game=1..}] at @s run execute in minecraft:gis_nether run tp @s 124.00 19.06 -5.0 270 0
 execute as @a[scores={leave_game=1..}] at @s if predicate gis:in_puzzle_s run clear @s
@@ -22,7 +22,7 @@ tag @a[scores={deathCount=1..},tag=!gis_itemkeep] add gis_itemkeep
 execute as @a[scores={deathCount=1..},nbt={Health:20f}] at @s run function gis:other/bossber_set
 execute as @a[scores={deathCount=1..},advancements={gis:other/tutorial=false}] in minecraft:tutorial run tp @s 0.5 127.00 0.5 270 0
 execute as @a at @s unless predicate gis:athletic unless predicate gis:in_minigame unless predicate gis:in_puzzle_d run function gis:growtree/effect
-execute as @a[scores={deathCount=1..},nbt={Health:20f}] run function gis:growtree/attlibute
+execute as @a[scores={deathCount=1..},nbt={Health:20f}] run function gis:system/player_system/set_player_attlibute
 execute as @a at @s if predicate gis:in_puzzle_d run effect give @s minecraft:saturation 20 1 true
 execute as @a at @s if predicate gis:athletic run effect give @s minecraft:saturation 20 1 true
 execute as @a at @s if predicate gis:athletic run effect give @s minecraft:resistance 1 5 true
