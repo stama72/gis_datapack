@@ -1,1 +1,0 @@
-execute as @a[tag=minegame] at @s if predicate gis:in_minegame run playsound minecraft:block.anvil.place ambient @s ~ ~ ~ 0.5 2

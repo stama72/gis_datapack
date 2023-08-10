@@ -1,5 +1,5 @@
 {
-  "parent": "gis:other/root",
+  "parent": "gis:system/minegame/root",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:impossible",
@@ -7,6 +7,6 @@
     }
   },
   "rewards": {
-    "function": "gis:advancement/minigame/minegame/prize7"
+    "function": "gis:system/advancements/minegame/prize2"
   }
 }
