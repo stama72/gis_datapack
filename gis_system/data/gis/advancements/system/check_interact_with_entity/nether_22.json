@@ -1,0 +1,17 @@
+{
+  "parent": "gis:system/check_interact_with_entity/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:villager",
+          "nbt": "{Tags:[\"gis_mob\",\"vil_22\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "gis:system/advancements/check_interact_with_entity/nether_22"
+  }
+}

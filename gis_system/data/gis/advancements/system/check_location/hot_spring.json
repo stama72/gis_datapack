@@ -1,5 +1,5 @@
 {
-  "parent": "gis:other/root",
+  "parent": "gis:system/check_location/root",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:location",
@@ -28,6 +28,6 @@
     }
   },
   "rewards": {
-    "function": "gis:advancement/other/hot_spring"
+    "function": "gis:system/advancements/check_location/hot_spring"
   }
 }

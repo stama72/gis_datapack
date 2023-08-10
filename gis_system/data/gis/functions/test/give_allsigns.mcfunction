@@ -1,7 +1,7 @@
 
 
 
-#ホテル入り口へ
+#ホテル入口へ
 #setblock 222 19 61 minecraft:oak_wall_sign[facing=west,waterlogged=false]{Color:"green",GlowingText:1b,Text1:'{"text":""}',Text2:'{"color":"green","clickEvent":{"action":"run_command","value":"/execute in minecraft:overworld run tp @s 155.0 14 59.0 90 0"},"text":"ホテル入口へ"}',Text3:'{"text":""}',Text4:'{"color":"green","clickEvent":{"action":"run_command","value":"/function gis:system/sign_click/sound_sign_click"},"text":"≪右クリック≫"}'}
 
 
