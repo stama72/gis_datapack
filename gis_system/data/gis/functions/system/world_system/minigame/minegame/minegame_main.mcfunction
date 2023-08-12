@@ -2,7 +2,7 @@
 scoreboard players remove #minegame instant 1
 execute store result bossbar minecraft:minegame_time value run scoreboard players get #minegame instant
 execute as @a[tag=minegame] at @s if predicate gis:system/position_check/in_minegame_area run scoreboard players operation $SCORE$ gis_min_score_s = @s gis_min_score
-execute if score #minegame instant matches 0 run scoreboard players set #minegame instant_sub 2
+execute if score #minegame instant matches 0 run scoreboard players set #minegame gis_event_flag 2
 execute if score #minegame instant matches 0 run scoreboard players set #minegame instant 59
 #item_give
 execute as @a[tag=minegame] at @s if predicate gis:system/position_check/in_minegame_area run loot give @s[scores={gis_min_coal=1..}] mine 23 22 -33 mainhand

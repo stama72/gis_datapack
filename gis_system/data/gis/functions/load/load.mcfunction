@@ -15,12 +15,13 @@ scoreboard objectives add gis_use_totem minecraft.used:minecraft.totem_of_undyin
 scoreboard objectives add gis_event_flag dummy "world event flag"
 
 #鉱石採掘検知
-scoreboard objectives add gis_mine_gold minecraft.mined:gold_ore "gold ore mined"
-scoreboard objectives add gis_mine_stone minecraft.mined:stone "stone mined"
-scoreboard objectives add gis_mine_redstone minecraft.mined:redstone_ore "redstone ore mined"
-scoreboard objectives add gis_mine_coal minecraft.mined:coal_ore "coal ore mined"
-scoreboard objectives add gis_mine_diamond minecraft.mined:diamond_ore "diamond ore mined"
-scoreboard objectives add gis_mine_lapis minecraft.mined:lapis_ore "lapis ore mined"
+scoreboard objectives add gis_mine_gold minecraft.mined:gold_ore "mined gold"
+scoreboard objectives add gis_mine_iron minecraft.mined:iron_ore "mined iron"
+scoreboard objectives add gis_mine_stone minecraft.mined:stone "mined stone"
+scoreboard objectives add gis_mine_redstone minecraft.mined:redstone_ore "mined redstone"
+scoreboard objectives add gis_mine_coal minecraft.mined:coal_ore "mined coal"
+scoreboard objectives add gis_mine_diamond minecraft.mined:diamond_ore "mined diamond"
+scoreboard objectives add gis_mine_lapis minecraft.mined:lapis_ore "mined lapis"
 
 
 #

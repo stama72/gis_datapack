@@ -11,7 +11,7 @@
             "scores": {
               "gis_trigger_________________________________________________________________________________________________________________________________________________________________________________________________________________________________________": {
                 "min": 1,
-                "max": 1
+                "max": 1000
               }
             }
           }
@@ -20,6 +20,6 @@
     }
   },
   "rewards": {
-    "function": "gis:system/advancements/check_player_status/check_player_trigger_1"
+    "function": "gis:system/advancements/check_player_status/check_player_trigger_main"
   }
 }

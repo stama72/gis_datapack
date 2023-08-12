@@ -1,5 +1,4 @@
-#仮実装
-#村人の中身は今後修正するかも
+#コピーしただけ
 
 execute in minecraft:overworld positioned 233.39 24.61 60.92 run kill @e[tag=gis_vil,distance=..180]
 tellraw @a {"text":"村人が再配置されました"}

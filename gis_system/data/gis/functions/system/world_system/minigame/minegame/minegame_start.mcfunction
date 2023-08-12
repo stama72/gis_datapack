@@ -1,4 +1,4 @@
-scoreboard players set #minegame instant_sub 1
+scoreboard players set #minegame gis_event_flag 1
 scoreboard players set #minegame instant 1261
 bossbar set minecraft:minegame_time players @s
 scoreboard players add @s gis_min_skill 0
